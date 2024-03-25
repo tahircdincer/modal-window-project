@@ -38,7 +38,7 @@
 .show-modal:hover {
   transform: translateY(-50%);
   transition: 0.8s ease-in;
-  background-color: ;
+  background-color: red;
 }
 
 .close-modal {
