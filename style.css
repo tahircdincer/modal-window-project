@@ -6,8 +6,6 @@
 }
 :root {
   --bg-primary: linear-gradient(to top left, #753682 0%, #bf2e34 100%);
-  --button-primary: ;
-  --button-on-click-color: ;
 }
 .container {
   position: relative;
