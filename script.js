@@ -17,6 +17,7 @@ const closeModalWindow = function () {
   overlay.classList.add("hidden");
 };
 
+// On- Click
 btnOpenModal.addEventListener("click", openModalWindow);
 if (
   modal.classList.contains("hidden") &&
@@ -25,6 +26,8 @@ if (
   btnCloseModal.addEventListener("click", closeModalWindow);
   overlay.addEventListener("click", closeModalWindow);
 }
+
+// ' ESC ' Key to ' closeModalWindow() ';
 
 document.addEventListener("keydown", function (keyboard) {
   console.log(keyboard.key);
